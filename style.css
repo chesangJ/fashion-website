@@ -1,0 +1,365 @@
+body{
+    background-color: azure;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    /* overflow-y: hidden; */
+    /* overflow-x: scroll; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    margin-left: 28%;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+  
+}
+
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.first{
+    border: solid  rgb(125, 9, 234);
+    width: 100%;
+    height: 500px;
+    background-color: rgb(125, 9, 234);
+    display: flex;
+    
+}
+.firsta{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.text1{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+.discover{
+    background-color: rgb(233, 122, 157);
+    padding: 8px;
+    width: 120px;
+    font-size: smaller;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: rgb(233, 122, 157);
+
+}
+.firsti{
+    width: 70%;
+    margin-bottom: 180%;
+    margin-right: 300%;
+    position: absolute;
+}
+
+.week{
+    text-align: center;
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+}
+.headings{
+    display: inline-flex;
+    align-items: center;
+    gap: 50%;
+    margin-left: 45%;
+}
+.dresses{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    
+}
+
+.choices{
+    display: flex;
+    gap: 8%;
+    margin-left: 5%;
+}
+
+.view{
+    background-color: rgb(233, 122, 157);
+    padding: 8px;
+    width: 250px;
+    font-size: smaller;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: rgb(233, 122, 157);
+    margin-left: 43%;
+
+}
+
+.three{
+    display: flex;
+    gap: 10%;  
+    margin-left: 1%; 
+}
+.fitness{
+    width: 127%;
+}
+.heels{
+    width: 125%;
+}
+.shoes{
+    width: 124%;
+}
+.four{
+    text-align: center;
+}
+.welcome{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+}
+.label{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.we{
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.youtube{
+    width: 100%;
+}
+.icons{
+    gap: 2%;
+}
+.about{
+    margin-left: 2%;
+}
+footer{
+    display: flex;
+    gap: 10%;
+}
+
+@media only screen and ( max-width: 700px){
+    body{
+        background-color: azure;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        /* overflow-y: hidden; */
+        /* overflow-x: scroll; */
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+        flex-wrap: wrap;
+        margin-left: 28%;
+    
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+        
+      
+    }
+    
+    nav ul li a{
+        color: black;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .first{
+        border: solid  rgb(125, 9, 234);
+        width: 100%;
+        height: 500px;
+        background-color: rgb(125, 9, 234);
+        display: flex;
+        
+    }
+    .firsta{
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .text1{
+        color: white;
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+    }
+    .discover{
+        background-color: rgb(233, 122, 157);
+        padding: 8px;
+        width: 120px;
+        font-size: smaller;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-color: rgb(233, 122, 157);
+    
+    }
+    .firsti{
+        /* width: 70%; */
+        /* margin-bottom: 180%; */
+        /* margin-right: 2000%; */
+        /* position: absolute; */
+    }
+    
+    .week{
+        text-align: center;
+        font-weight: lighter;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: smaller;
+    }
+    .headings{
+        display: inline-flex;
+        align-items: center;
+        gap: 50%;
+        margin-left: 45%;
+    }
+    .dresses{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        
+    }
+    
+    .choices{
+        display: flex;
+        /* gap: 8%; */
+        /* margin-left: 5%; */
+        /* margin-right: 1000%; */
+        width: 10%;
+    }
+    
+    .view{
+        background-color: rgb(233, 122, 157);
+        padding: 8px;
+        width: 250px;
+        font-size: smaller;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-color: rgb(233, 122, 157);
+        margin-left: 43%;
+    
+    }
+    
+    .three{
+        display: flex;
+        gap: 10%;  
+        margin-left: 1%; 
+    }
+    .fitness{
+        width: 127%;
+    }
+    .heels{
+        width: 125%;
+    }
+    .shoes{
+        width: 124%;
+    }
+    .four{
+        text-align: center;
+    }
+    .welcome{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: smaller;
+        font-weight: lighter;
+    }
+    .label{
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .we{
+        font-size: smaller;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .youtube{
+        width: 100%;
+    }
+    .icons{
+        gap: 2%;
+    }
+    .about{
+        margin-left: 2%;
+    }
+    footer{
+        display: flex;
+        gap: 10%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
